@@ -17,7 +17,6 @@ if (this.readyState == 4 && this.status == 200) {
 xhr.open("GET", url, true);
 xhr.send(); 
 
-
 function showWeather(){
   return weatherHtml.innerHTML = "il fait actuellement  " + tempCelsius + "°C et le ciel est " + clouds
 }
