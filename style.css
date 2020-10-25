@@ -1,0 +1,56 @@
+body{
+  margin: 0; 
+  padding: 0; 
+  font-family: 'Raleway', sans-serif;
+  background-image: url();
+  background-size: conver;
+  background-position: center;
+}
+.container{
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #eee;
+}
+.clear{
+  background-image: url(./images/clear.jpg);
+}
+.rain{
+  background-image: url(./images/rainy.jpg);
+}
+.clouds{
+  background-image: url(./images/sky-cloud.jpg); 
+}
+
+.info_container{
+  width: 50vw;
+  background-color: rgba(242, 259, 254, 0.2);
+  box-shadow: 2px 2px 2px (#eee);
+}
+.weatherDiv{
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.weatherDiv i{
+  font-size: 2.5em;
+  margin-bottom: 1.5em;
+}
+.tempLine{
+  display: flex;
+  flex-direction: row;
+}
+.tempLine .celcius{
+  display: flex;
+  align-items: center;
+}
+.temp, 
+.description{
+  font-size: 1.5em;
+  margin: 0.3em;
+}
